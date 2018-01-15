@@ -1,0 +1,175 @@
+* {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase; }
+
+.enter-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #3f3f3f, #040404, #e46a6b, #6e6e6e);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite; }
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+h1,
+h6 {
+  color: whitesmoke;
+  font-size: 235px;
+  line-height: 0;
+  text-transform: uppercase;
+  font-weight: 100; }
+
+#enter-btn {
+  width: 30%;
+  height: 50px;
+  margin-bottom: 150px;
+  background: transparent;
+  color: whitesmoke;
+  font-size: 14px;
+  border: 1px solid whitesmoke;
+  outline: none; }
+
+.main-container {
+  width: 100vw;
+  height: 2000px;
+  background-color: #040404;
+  display: none; }
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .heading h1 {
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 0;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-left: 1.5%; }
+  .heading div {
+    margin-right: 1%; }
+  .heading ul {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 10%; }
+    .heading ul li {
+      color: #e46a6b;
+      margin: 0px 15px;
+      font-size: 15px; }
+  .heading hr {
+    width: 93%; }
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-size: 50%;
+  background-position: center;
+  height: auto;
+  background-blend-mode: lighten; }
+  .intro img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border: 1px solid white;
+    margin-bottom: 40px;
+    margin-top: 20px; }
+  .intro h3 {
+    color: #ffffff;
+    margin: 0;
+    font-weight: 100;
+    margin-top: 30px; }
+  .intro span {
+    color: #e46a6b; }
+  .intro p {
+    color: #ffffff;
+    padding-top: 35px;
+    font-size: 15px;
+    text-align: center;
+    margin: 0% 30%;
+    text-transform: lowercase; }
+
+.tech-stack {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .tech-stack .tech-stack-ind {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 17.5%;
+    margin: 3% 2%;
+    height: 125px; }
+    .tech-stack .tech-stack-ind p {
+      line-height: 0;
+      margin: 0; }
+    .tech-stack .tech-stack-ind img {
+      border-radius: 0px;
+      margin: 0;
+      width: 100%;
+      height: 125px;
+      margin: 0; }
